@@ -20,7 +20,7 @@ body {
 
 main {
     position: relative;
-    height: 100vh;
+    min-height: 100%; /* Alterado para mín-height */
 }
 
 
@@ -34,7 +34,7 @@ iframe#tela {
 
 section#telefone {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
 
@@ -45,12 +45,17 @@ section#telefone {
 
 
 section#redes-sociais {
-    text-align: right;
-    margin-right: 20px;
+        position: fixed;
+        bottom: -10px;
+
+        width: 100vw;
+        height: 190px;
+        text-align: center;
 }
 
 section#redes-sociais img {
-    width: 53px;
+    width: 10vw;
+    max-width: 53px;
     margin: 10px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
