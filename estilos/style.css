@@ -49,7 +49,8 @@ section#redes-sociais {
         bottom: -10px;
 
         width: 100vw;
-        height: 190px;
+        max-height: 140px;
+
         text-align: center;
 }
 
@@ -57,6 +58,10 @@ section#redes-sociais img {
     width: 10vw;
     max-width: 53px;
     margin: 10px;
+
+    position: relative;
+    top: -50px;
+
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
     box-sizing: border-box;
